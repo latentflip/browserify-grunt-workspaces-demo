@@ -1,0 +1,33 @@
+{
+  "name": "FloatApp",
+  "version": "0.1.0",
+  "description": "Cash Flow",
+  "main": "bundle.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffeeify": "~0.5.1",
+    "eco": "~1.1.0-rc-3",
+    "watchify": "~0.0.1",
+    "browserify-eco": "~0.2.4",
+    "browserify": "~2.17.3",
+    "browserify-shim": "~2.0.3",
+    "grunt": "~0.4.1",
+    "grunt-browserify": "git://github.com/latentflip/grunt-browserify.git",
+    "grunt-contrib-watch": "git://github.com/edgecampus/grunt-contrib-watch#target-specific-events",
+    "grunt-karma": "~0.4.4",
+    "grunt-contrib-connect": ""
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/latentflip/FloatRewrite.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
